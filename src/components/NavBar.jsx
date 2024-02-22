@@ -18,7 +18,7 @@ function mobileNav() {
   navLists.classList.toggle('mobile-nav')
   logo.classList.toggle('hide')
   for (const list of navList) {
-    list.style.padding = '1.5rem 1rem 0'
+    list.classList.toggle('listPad')
   }
   for (const link of navLinks) {
     link.classList.toggle('dark')
@@ -26,13 +26,9 @@ function mobileNav() {
   }
 }
 
-function NavBar() {
-  const [img, setImg] = useState(false)
+function NavBar(props) {
+  console.log(props)
 
-  // function toggleTheme() {
-  //   if(img)return
-  //   document.querySelector('body').classList.add('dark-body')
-  // }
   return (
     <div className="intro-flex">
       <a href="index.html" className="logo0">
@@ -52,15 +48,15 @@ function NavBar() {
         <ul className="nav_lists hide">
           {Lists.map(NavLists)}
           <ul className="weather">
-            <button type="button" onClick={() => setImg(!img)}>
-              {img ? (
+            <button
+              type="button"
+              aria-label={props.mode ? 'darkmode' : 'light mode'}
+              onClick={props.handleClick}
+            >
+              {props.mode ? (
                 <img src={sun} alt="sun" />
               ) : (
-                <img
-                  src={moon}
-                  alt="moon"
-                  // onClick={toggleTheme}
-                />
+                <img src={moon} alt="moon" />
               )}
             </button>
           </ul>

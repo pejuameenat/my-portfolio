@@ -91,23 +91,24 @@ export const projects = [
     link: 'https://guarder-three.vercel.app/',
     gitHub: 'https://github.com/pejuameenat/guarder',
   },
+
   {
     id: 2,
-    image: blog,
-    altText: 'travel-image',
-    h2: 'News Blog',
-    p: 'Blog landing page which updates on trending news!',
-    link: 'https://news-blog-nine.vercel.app/index.html',
-    gitHub: 'https://github.com/pejuameenat/News-Blog',
-  },
-  {
-    id: 3,
     image: ecommerce,
     altText: 'movie-image',
     h2: 'Artisan home',
     p: 'A Modern wesite for artisans and people who require theeir services built with vanilla, javascript, HTML, CSS.',
     link: 'https://artisan-home.vercel.app/index.html#',
     gitHub: 'https://github.com/pejuameenat/Artisan-home',
+  },
+  {
+    id: 3,
+    image: blog,
+    altText: 'travel-image',
+    h2: 'News Blog',
+    p: 'Blog landing page which updates on trending news!',
+    link: 'https://news-blog-nine.vercel.app/index.html',
+    gitHub: 'https://github.com/pejuameenat/News-Blog',
   },
   {
     id: 4,

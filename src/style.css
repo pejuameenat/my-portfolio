@@ -20,7 +20,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.dark-body {
+/* .dark-body {
     background-color: var(--clr-black);
     color: var(--clr-white) !important;
 }
@@ -28,7 +28,7 @@ body {
 .light-body {
     background-color: var(--clr-white);
     color: var(--clr-black) !important;
-}
+} */
 
 /* nav */
 span {
@@ -104,6 +104,10 @@ nav {
      height: 30px;
      background-color: transparent;
      border: 0;
+ }
+ /* js class */
+ .listPad{
+    padding: 1.5rem 1rem 0;
  }
 /* HERO */
 .hero-section {
@@ -233,6 +237,7 @@ nav {
 
 .overlay p {
     font-size: .9rem;
+    padding:  .4rem 0;
 }
 
 .services-image:hover .overlay {

@@ -4,4 +4,4 @@ import App from './components/App';
 import '../src/style.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<App/>)
+root.render(<App mode={false}/>)
