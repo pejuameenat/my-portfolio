@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Nav from './Nav'
 import moon from '../assets/half-moon.png'
 import sun from '../assets/sun.png'
@@ -27,8 +27,6 @@ function mobileNav() {
 }
 
 function NavBar(props) {
-  console.log(props)
-
   return (
     <div className="intro-flex">
       <a href="index.html" className="logo0">
