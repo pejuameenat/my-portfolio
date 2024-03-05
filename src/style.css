@@ -20,16 +20,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* .dark-body {
-    background-color: var(--clr-black);
-    color: var(--clr-white) !important;
-}
-
-.light-body {
-    background-color: var(--clr-white);
-    color: var(--clr-black) !important;
-} */
-
 /* nav */
 span {
     color: var(--clr-purple);
@@ -41,7 +31,7 @@ span {
 
 .intro-flex {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: .1rem .7rem;
     position: fixed;
@@ -51,24 +41,31 @@ span {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.intro-flex a {
-    font-size: 2rem;
+header a, .nav_lists a {
     text-decoration: none;
     color: var(--clr-navy);
     font-weight: 600;
+    display:block;
+}
+
+header a{
     font-size: 2rem;
 }
-
-nav {
-    flex-grow: 1;
-    padding-right: 1rem;
+/* js class */
+.mobileStyle{
+    color: var(--clr-black);
+    margin-top: 1rem;
+    font-weight: 400;
 
 }
+/* nav {
+    padding-right: 1rem;
+} */
 
-/* js classes */
-.mobile-nav {
-    height: 100%;
-    width: 30vw;
+header{
+    display:  flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .strong {
@@ -97,13 +94,14 @@ nav {
  }
 
  .weather{
-    padding:  .5rem 0 0 1rem;
+    display: flex;
  }
  .weather button {
-     width: 30px;
-     height: 30px;
+     width: 25px;
+     height: 25px;
      background-color: transparent;
      border: 0;
+     align-self: center;
  }
  /* js class */
  .listPad{
@@ -261,8 +259,6 @@ nav {
     cursor: pointer;
 }
 
-
-
 /* Contact */
 .input-container {
     width: 100%;
@@ -326,7 +322,6 @@ footer {
     max-width: 90%;
     margin: auto;
     padding: 1rem 0;
-
 }
 
 .inline {
@@ -341,11 +336,18 @@ footer {
     strong {
         font-size: 3rem;
     }
-
+   header{
+    width:  fit-content;
+   }
     .nav-list {
         align-self: center;
     }
-
+    .intro-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
     .menu {
         display: none;
     }
