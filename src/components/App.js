@@ -17,11 +17,11 @@ function App(props){
     return (
       <div className="app" id="light-body" style={styles}>
         <NavBar mode={mode} handleClick={modeSetter} />
-        <About />
+        <About  darkMode={mode}/>
         <Skills />
         <Projects />
         <Contact />
-        <Footer />
+        <Footer darkMode={mode}/>
       </div>
     )
 }

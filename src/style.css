@@ -61,7 +61,7 @@ header a{
 /* nav {
     padding-right: 1rem;
 } */
-
+ 
 header{
     display:  flex;
     justify-content: space-between;
@@ -136,11 +136,12 @@ header{
 
 .pry-1 {
     background-color: var(--clr-purple);
+    color: var(--clr-white);
 }
 
 .pry-1:hover {
     background-color: transparent;
-    color: var(--clr-black);
+    /* color: var(--clr-black); */
 }
 
 .pry-2:hover {
@@ -148,9 +149,13 @@ header{
     border: 0;
 }
 
-.pry-2:hover .hero-btn {
-    color: var(--clr-black);
+.pry-2:hover {
+    color: var(--clr-white);
     font-weight: 600;
+}
+ 
+.darkmodeColor, .darkmodeColor:hover {
+    color: var(--clr-white)!important
 }
 
 /* SKILLS */
