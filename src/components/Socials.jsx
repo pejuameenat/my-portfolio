@@ -1,6 +1,5 @@
 import React from 'react';
 import linkedIn from '../assets/linkedin.png';
-import instagram from '../assets/instagram2.png';
 import twitter from '../assets/twitter2.png';
 import github from '../assets/github.png';
 
@@ -20,12 +19,6 @@ function Socials(){
           >
             {' '}
             <img src={linkedIn} alt="linkedin" width="30" height="30" />
-          </a>
-        </li>
-        <li className="ms-3 inline">
-          <a className="text-body-secondary" href="#">
-            {' '}
-            <img src={instagram} alt="instagram" width="30" height="30" />
           </a>
         </li>
         <li className="ms-3 inline">

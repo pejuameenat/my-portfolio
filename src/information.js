@@ -6,13 +6,12 @@ import git from './assets/git.png';
 import tailwid from './assets/tailwid.jpeg';
 import reactImg from './assets/atom.png';
 import API from './assets/api.png';
-import travel from './assets/travel.jpg';
 import guardScreenshot from './assets/guard-screenshot.jpg';
 import blog from './assets/blog-project-screenshot.jpg';
 import ecommerce from './assets/ecommerce-screenshot.jpg';
 import developer from './assets/developer.io-screenshot.jpg';
 import memoryGame from './assets/memory.jpg';
-
+import cocaColaImage from './assets/cokeslider2.jpg'
 
 export const Lists = [
     {
@@ -94,21 +93,22 @@ export const projects = [
 
   {
     id: 2,
+    image: cocaColaImage,
+    altText: 'project-screenshot',
+    h2: 'Coca cola clone',
+    p: 'A landing page relpica of the coca cola website built with react.js, tailwind css',
+    link: 'https://my-cocacola-app.vercel.app/',
+    gitHub: 'https://github.com/pejuameenat/my-cocacola-app',
+  },
+
+  {
+    id: 3,
     image: ecommerce,
     altText: 'movie-image',
     h2: 'Artisan home',
     p: 'A Modern wesite for artisans and people who require theeir services built with vanilla, javascript, HTML, CSS.',
     link: 'https://artisan-home.vercel.app/index.html#',
     gitHub: 'https://github.com/pejuameenat/Artisan-home',
-  },
-  {
-    id: 3,
-    image: blog,
-    altText: 'travel-image',
-    h2: 'News Blog',
-    p: 'Blog landing page which updates on trending news!',
-    link: 'https://news-blog-nine.vercel.app/index.html',
-    gitHub: 'https://github.com/pejuameenat/News-Blog',
   },
   {
     id: 4,
@@ -121,6 +121,16 @@ export const projects = [
   },
   {
     id: 5,
+    image: blog,
+    altText: 'travel-image',
+    h2: 'News Blog',
+    p: 'Blog landing page which updates on trending news!',
+    link: 'https://news-blog-nine.vercel.app/index.html',
+    gitHub: 'https://github.com/pejuameenat/News-Blog',
+  },
+
+  {
+    id: 6,
     image: memoryGame,
     altText: 'movie-image',
     h2: 'Memory Game',
@@ -128,14 +138,4 @@ export const projects = [
     link: 'https://memory-game-rosy-sigma.vercel.app/',
     gitHub: 'https://github.com/pejuameenat/memory-game',
   },
-  {
-    id: 6,
-    image: travel,
-    altText: 'travel-image',
-    h2: 'Travely',
-    p: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis harum, vel quos id laboriosam cum!',
-    link: 'https://travel-io.vercel.app/#',
-    gitHub: 'https://github.com/pejuameenat/Travel.io',
-  },
 ]
-
