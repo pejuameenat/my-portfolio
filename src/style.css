@@ -75,7 +75,14 @@ header{
 .menu {
     float: right;
 }
-
+.hamburger-button{
+  background-color: transparent;
+  border:0;
+}
+.hamburger-button:focus{
+    outline: 2px solid var(--clr-black);
+    outline-offset: 4px;
+}
 .dark {
     color: var(--clr-black);
 }

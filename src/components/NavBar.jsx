@@ -26,14 +26,15 @@ function NavBar(props) {
             Port<span>folio</span>
           </strong>
         </a>
-        <a href="#">
-          <img
-            src={hamburger}
-            className="menu"
-            onClick={mobileNav}
-            alt="menu-button"
-          />
-        </a>
+        <button
+          type="button"
+          aria-label="hamburger button"
+          aria-haspopup="true"
+          className="hamburger-button"
+          onClick={mobileNav}
+        >
+          <img src={hamburger} className="menu" alt="menu-button" />
+        </button>
       </header>
       <nav>
         <ul className={showNav ? 'nav_lists hide' : 'nav_lists'}>
