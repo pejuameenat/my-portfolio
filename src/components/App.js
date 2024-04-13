@@ -10,6 +10,7 @@ function App(props){
     let styles = {
       backgroundColor: mode ? '#000' : '#fff',
       color: mode ? '#fff' : '#000',
+      transition: ' 400ms ease-in'
     }
     function modeSetter(){
         setMode((prevMode)=> !prevMode)

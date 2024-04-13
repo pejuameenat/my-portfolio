@@ -39,7 +39,7 @@ function NavBar(props) {
       <nav>
         <ul className={showNav ? 'nav_lists hide' : 'nav_lists'}>
           {Lists.map(NavLists)}
-          <ul className="weather">
+          <div className="weather">
             <button
               type="button"
               aria-label={
@@ -53,7 +53,7 @@ function NavBar(props) {
                 <img src={moon} alt="moon" />
               )}
             </button>
-          </ul>
+          </div>
         </ul>
       </nav>
     </div>

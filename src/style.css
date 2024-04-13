@@ -58,7 +58,6 @@ header a {
     color: var(--clr-black);
     margin-top: 1rem;
     font-weight: 400;
-
 }
 
 header {
@@ -88,9 +87,6 @@ header {
     border-radius: 7px;
 }
 
-.dark {
-    color: var(--clr-black);
-}
 
 .hide,
 .hidden {
@@ -107,14 +103,14 @@ header {
 
 .weather {
     display: flex;
+    justify-content: flex-start;
 }
 
 .weather button {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: transparent;
     border: 0;
-    align-self: center;
 }
 
 /* js class */
@@ -379,7 +375,8 @@ footer {
         align-items: center;
     }
 
-    .menu, .hamburger-button {
+    .menu,
+    .hamburger-button {
         display: none;
     }
 
@@ -390,7 +387,6 @@ footer {
         width: 120px;
         margin-top: .5rem;
     }
-
 
     .nav_lists {
         display: flex;
