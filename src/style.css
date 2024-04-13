@@ -385,7 +385,7 @@ footer {
         justify-content: center;
         align-items: center;
         width: 120px;
-        margin-top: .5rem;
+        margin-top: .7rem;
     }
    .weather button {
        width: 25px;
@@ -423,7 +423,6 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-
 
     .services-image:nth-child(1) {
         grid-row: span 2;
