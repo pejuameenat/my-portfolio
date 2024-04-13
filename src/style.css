@@ -387,7 +387,10 @@ footer {
         width: 120px;
         margin-top: .5rem;
     }
-
+   .weather button {
+       width: 25px;
+       height: 25px;
+   }
     .nav_lists {
         display: flex;
         gap: 30px;
