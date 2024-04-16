@@ -3,7 +3,7 @@ import css from './assets/css.png';
 import javascript from './assets/javascript.png';
 import bootstrap from './assets/bootstrap.png';
 import git from './assets/git.png';
-import tailwid from './assets/tailwid.jpeg';
+import tailwind from './assets/tailwind.jpeg'
 import reactImg from './assets/atom.png';
 import API from './assets/api.png';
 import guardScreenshot from './assets/guard-screenshot.jpg';
@@ -11,7 +11,7 @@ import blog from './assets/blog-project-screenshot.jpg';
 import ecommerce from './assets/ecommerce-screenshot.jpg';
 import developer from './assets/developer.io-screenshot.jpg';
 import memoryGame from './assets/memory.jpg';
-import cocaColaImage from './assets/cokeslider2.jpg'
+import cocaColaImage from './assets/cokeSlider2.jpg'
 
 export const Lists = [
     {
@@ -65,7 +65,7 @@ export const skills = [
   {
     id: 6,
     skill: 'Tailwind css',
-    img: tailwid,
+    img: tailwind,
   },
   {
     id: 7,
@@ -96,7 +96,7 @@ export const projects = [
     image: cocaColaImage,
     altText: 'project-screenshot',
     h2: 'Coca cola clone',
-    p: 'A landing page relpica of the coca cola website built with react.js, tailwind css',
+    p: 'A landing page replica of the coca cola website built with react.js, tailwind css, material ui',
     link: 'https://my-cocacola-app.vercel.app/',
     gitHub: 'https://github.com/pejuameenat/my-cocacola-app',
   },
@@ -106,14 +106,14 @@ export const projects = [
     image: ecommerce,
     altText: 'movie-image',
     h2: 'Artisan home',
-    p: 'A Modern wesite for artisans and people who require theeir services built with vanilla, javascript, HTML, CSS.',
+    p: 'A Modern website for artisans and people who require their services built with vanilla, javascript, HTML, CSS.',
     link: 'https://artisan-home.vercel.app/index.html#',
     gitHub: 'https://github.com/pejuameenat/Artisan-home',
   },
   {
     id: 4,
     image: developer,
-    altText: 'travel-image',
+    altText: 'A man connecting image dots ',
     h2: 'Developer.io',
     p: 'A simple landing page for connecting early stage developers built with vanilla javascript, HTML, CSS.',
     link: 'https://pejuameenat.github.io/developer.io/',
@@ -122,7 +122,7 @@ export const projects = [
   {
     id: 5,
     image: blog,
-    altText: 'travel-image',
+    altText: 'news-image',
     h2: 'News Blog',
     p: 'Blog landing page which updates on trending news!',
     link: 'https://news-blog-nine.vercel.app/index.html',

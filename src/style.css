@@ -15,6 +15,9 @@
     --clr-purple: #6C63FF;
     --clr-main-fade: rgb(214, 226, 250);
 }
+html{
+    scroll-behavior:  smooth;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
