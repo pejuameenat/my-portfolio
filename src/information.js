@@ -11,7 +11,7 @@ import blog from './assets/blog-project-screenshot.jpg';
 import ecommerce from './assets/ecommerce-screenshot.jpg';
 import developer from './assets/developer.io-screenshot.jpg';
 import memoryGame from './assets/memory.jpg';
-import cocaColaImage from './assets/cokeSlider2.jpg'
+import cocaColaImage from './assets/cokeslider2.jpg'
 
 export const Lists = [
     {
