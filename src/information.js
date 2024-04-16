@@ -97,8 +97,8 @@ export const projects = [
     altText: 'project-screenshot',
     h2: 'Coca cola clone',
     p: 'A landing page replica of the coca cola website built with react.js, tailwind css, material ui',
-    link: 'https://my-cocacola-app.vercel.app/',
-    gitHub: 'https://github.com/pejuameenat/my-cocacola-app',
+    link: 'https://coca-cola-clone-git-master-aminats-projects.vercel.app/',
+    gitHub: 'https://github.com/pejuameenat/Coca-Cola-clone',
   },
 
   {
