@@ -5,7 +5,7 @@ import bootstrap from './assets/bootstrap.png';
 import git from './assets/git.png';
 import tailwind from './assets/tailwind.jpeg'
 import reactImg from './assets/atom.png';
-import API from './assets/api.png';
+import vite from './assets/vite.svg';
 import guardScreenshot from './assets/guard-screenshot.jpg';
 import blog from './assets/blog-project-screenshot.jpg';
 import ecommerce from './assets/ecommerce-screenshot.jpg';
@@ -74,8 +74,8 @@ export const skills = [
   },
   {
     id: 8,
-    skill: 'APIs',
-    img: API,
+    skill: 'VITE',
+    img: vite,
   },
 ]
 
