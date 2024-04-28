@@ -16,14 +16,14 @@ function App(props){
         setMode((prevMode)=> !prevMode)
     }
     return (
-      <div className="app" id="light-body" style={styles}>
+      <section className="app" id="light-body" style={styles}>
         <NavBar mode={mode} handleClick={modeSetter} />
         <About  darkMode={mode}/>
         <Skills />
         <Projects />
         <Contact />
         <Footer darkMode={mode}/>
-      </div>
+      </section>
     )
 }
 

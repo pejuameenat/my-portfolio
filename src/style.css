@@ -91,7 +91,7 @@ header {
     border-radius: 7px;
 }
 
-
+/* js classes */
 .hide,
 .hidden {
     display: none;
@@ -108,6 +108,10 @@ header {
 .weather {
     display: flex;
     justify-content: flex-start;
+    position: fixed;
+    top: .8rem;
+    right: 4rem;
+    /* border: 2px solid red; */
 }
 
 .weather button {
@@ -156,7 +160,6 @@ header {
 
 .pry-1:hover {
     background-color: transparent;
-    /* color: var(--clr-black); */
 }
 
 .pry-2:hover {
@@ -176,7 +179,6 @@ header {
 
 /* SKILLS */
 .skills-container {
-    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -390,6 +392,7 @@ footer {
         align-items: center;
         width: 120px;
         margin-top: .7rem;
+        position: unset;
     }
 
     .weather button {
@@ -400,7 +403,6 @@ footer {
     .nav_lists {
         display: flex;
         gap: 30px;
-        float: right;
     }
 
     .nav-list {
@@ -437,6 +439,10 @@ footer {
 
     .services-image:nth-child(1) p {
         font-size: 1.4rem;
+    }
+
+    .skills-container {
+        max-width: 80%;
     }
 
     .skills-head {
