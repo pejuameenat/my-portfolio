@@ -1,7 +1,7 @@
 import html from './assets/html-5.png';
 import css from './assets/css.png';
 import javascript from './assets/javascript.png';
-import bootstrap from './assets/bootstrap.png';
+import redux from './assets/redux.png';
 import git from './assets/git.png';
 import tailwind from './assets/tailwind.jpeg'
 import reactImg from './assets/atom.png';
@@ -52,25 +52,26 @@ export const skills = [
     skill: 'JAVASCRIPT',
     img: javascript,
   },
+
   {
     id: 4,
-    skill: 'BOOTSTRAP',
-    img: bootstrap,
-  },
-  {
-    id: 5,
     skill: 'GIT',
     img: git,
   },
   {
-    id: 6,
+    id: 5,
     skill: 'Tailwind css',
     img: tailwind,
   },
   {
-    id: 7,
+    id: 6,
     skill: 'REACT',
     img: reactImg,
+  },
+  {
+    id: 7,
+    skill: 'REDUX',
+    img: redux,
   },
   {
     id: 8,
