@@ -10,7 +10,7 @@ import guardScreenshot from './assets/guard-screenshot.jpg';
 import blog from './assets/blog-project-screenshot.jpg';
 import ecommerce from './assets/ecommerce-screenshot.jpg';
 import developer from './assets/developer.io-screenshot.jpg';
-import memoryGame from './assets/memory.jpg';
+import memoryGame from './assets/jobify.png';
 import cocaColaImage from './assets/cokeslider2.jpg'
 
 export const Lists = [
@@ -134,9 +134,9 @@ export const projects = [
     id: 6,
     image: memoryGame,
     altText: 'movie-image',
-    h2: 'Memory Game',
-    p: 'An exciting memory game made to task the brain! built with vanilla javascript, HTML and CSS.',
-    link: 'https://memory-game-rosy-sigma.vercel.app/',
-    gitHub: 'https://github.com/pejuameenat/memory-game',
+    h2: 'Jobify',
+    p: ' A simple landing page for a job posting platform',
+    link: 'https://jobify-io.vercel.app/',
+    gitHub: 'https://github.com/pejuameenat/jobify.io',
   },
 ]
