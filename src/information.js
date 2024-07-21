@@ -5,7 +5,7 @@ import redux from './assets/redux.png';
 import git from './assets/git.png';
 import tailwind from './assets/tailwind.jpeg'
 import reactImg from './assets/atom.png';
-import vite from './assets/vite.svg';
+import typeScript from './assets/Typescript_logo.png';
 import guardScreenshot from './assets/guard-screenshot.jpg';
 import blog from './assets/blog-project-screenshot.jpg';
 import ecommerce from './assets/ecommerce-screenshot.jpg';
@@ -75,8 +75,8 @@ export const skills = [
   },
   {
     id: 8,
-    skill: 'VITE',
-    img: vite,
+    skill: 'TYPESCRIPT',
+    img: typeScript,
   },
 ]
 
