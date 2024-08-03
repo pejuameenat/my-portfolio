@@ -76,7 +76,7 @@ export const skills = [
   {
     id: 8,
     skill: 'TYPESCRIPT',
-    img: typeScript,
+    img: typecript,
   },
 ]
 
